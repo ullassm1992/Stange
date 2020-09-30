@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90800" started-at="2020-09-30T22:52:38 IST" finished-at="2020-09-30T22:54:09 IST">
+    <groups>
+    </groups>
+    <test name="Testfirefox" duration-ms="72658" started-at="2020-09-30T22:52:38 IST" finished-at="2020-09-30T22:53:51 IST">
+      <class name="com.stange.scripts.TestLogin">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:com.stange.scripts.TestLogin@556333]" name="openbrowser" is-config="true" duration-ms="29221" started-at="2020-09-30T22:52:38 IST" finished-at="2020-09-30T22:53:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.stange.scripts.TestLogin@556333]" name="openapp" is-config="true" duration-ms="16410" started-at="2020-09-30T22:53:07 IST" finished-at="2020-09-30T22:53:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="testlogin()[pri:0, instance:com.stange.scripts.TestLogin@556333]" name="testlogin" duration-ms="11765" started-at="2020-09-30T22:53:24 IST" finished-at="2020-09-30T22:53:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.stange.scripts.TestLogin@556333]" name="closebrowser" is-config="true" duration-ms="14795" started-at="2020-09-30T22:53:36 IST" finished-at="2020-09-30T22:53:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.stange.scripts.TestLogin -->
+    </test> <!-- Testfirefox -->
+    <test name="Testchrome" duration-ms="90800" started-at="2020-09-30T22:52:38 IST" finished-at="2020-09-30T22:54:09 IST">
+      <class name="com.stange.scripts.TestLogin">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:com.stange.scripts.TestLogin@d41cee]" name="openbrowser" is-config="true" duration-ms="75041" started-at="2020-09-30T22:52:38 IST" finished-at="2020-09-30T22:53:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.stange.scripts.TestLogin@d41cee]" name="openapp" is-config="true" duration-ms="9700" started-at="2020-09-30T22:53:53 IST" finished-at="2020-09-30T22:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="testlogin()[pri:0, instance:com.stange.scripts.TestLogin@d41cee]" name="testlogin" duration-ms="4301" started-at="2020-09-30T22:54:03 IST" finished-at="2020-09-30T22:54:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.stange.scripts.TestLogin@d41cee]" name="closebrowser" is-config="true" duration-ms="1702" started-at="2020-09-30T22:54:07 IST" finished-at="2020-09-30T22:54:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.stange.scripts.TestLogin -->
+    </test> <!-- Testchrome -->
+  </suite> <!-- Suite -->
+</testng-results>
